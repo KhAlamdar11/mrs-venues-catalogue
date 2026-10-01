@@ -1,0 +1,69 @@
+# Special issues / topical collections / research topics with a submission deadline whose theme
+# is multi-robot / swarm / multi-agent systems, or that list them as an explicit topic (say which
+# in `note`). Delete entries once their deadline has passed (the worklist lists them).
+# journal: an id from journals.yaml, or any short id plus `journal_name` for journals we do not
+# track. area: optional, defaults to mrs. Schema: see CLAUDE.md.
+
+- title: "AI-Driven Swarm Intelligence for Multi-Domain Unmanned Vehicles: Advances in Sensing, Perception, and Communication"
+  journal: frontiers-rai
+  deadline: 2026-10-30
+  url: https://www.frontiersin.org/research-topics/72246
+  status: confirmed
+  verified: 2026-10-01
+  note: Multi-Robot Systems section research topic
+
+- title: Collaborative Navigation and Path Planning for Multi-Mobile Robots
+  journal: frontiers-rai
+  deadline: 2026-10-30
+  url: https://www.frontiersin.org/research-topics/74189
+  status: confirmed
+  verified: 2026-10-01
+  note: Multi-Robot Systems section research topic
+
+- title: Swarm Robotics
+  journal: npj-robotics
+  deadline: 2026-12-19
+  url: https://www.nature.com/collections/fhhcicdjad
+  status: confirmed
+  verified: 2026-10-01
+  note: Physical robot swarms; guest editors Haghighat, Kuckling, Garzón Ramos. Earlier announcements said 19 Sep 2026
+
+- title: Cognition, Exploration, and Collaboration of Multi-Agent Systems in Dynamic Open Environments
+  journal: frontiers-rai
+  deadline: 2026-12-31
+  url: https://www.frontiersin.org/research-topics/79189
+  status: confirmed
+  verified: 2026-10-01
+  note: Multi-Robot Systems section research topic
+
+- title: Agentic Intelligence for Materials Handling, Warehousing, and Logistics 5.0
+  journal: t-ase
+  deadline: 2027-02-15
+  url: https://www.ieee-ras.org/wp-content/uploads/2026/06/T-ASE-Agentic-Intelligence-for-Materials-Handling-Warehousing-and-Logistics-5.0.pdf
+  status: confirmed
+  verified: 2026-10-01
+  note: Topics include multi-agent coordination of AMR / AGV / picker fleets
+
+- title: Multi-Agent Collaborative Perception, Control, and Decision-Making
+  journal: frontiers-rai
+  deadline: 2027-03-19
+  url: https://www.frontiersin.org/research-topics/85655
+  status: confirmed
+  verified: 2026-10-01
+  note: Multi-Robot Systems section research topic
+
+- title: "Cooperative Autonomous Transportation Systems: Embodied Multi-Agent Intelligence from Simulation to Real-World Deployment"
+  journal: frontiers-rai
+  deadline: 2027-06-01
+  url: https://www.frontiersin.org/research-topics/86669
+  status: confirmed
+  verified: 2026-10-01
+  note: Multi-Robot Systems section research topic
+
+- title: "Intelligent Space Robots: Embodied AI and Cooperative Autonomy"
+  journal: npj-robotics
+  deadline: 2027-06-23
+  url: https://www.nature.com/collections/hdhjfgfafd
+  status: confirmed
+  verified: 2026-10-01
+  note: Has an "Autonomous and Cooperative Multi-Robot Systems" topic track

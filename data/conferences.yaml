@@ -1,0 +1,621 @@
+# Conferences for multi-robot systems research: dedicated multi-robot / swarm / multi-agent
+# venues (area: mrs), general robotics flagships (robotics, the default), and the control
+# (control) and AI / planning / learning (ai) venues where multi-robot work routinely appears.
+# Schema: see CLAUDE.md. Keep at least the most recent PAST edition with a paper
+# deadline for every venue — the renderer predicts future deadlines from it.
+# Dates are ISO (YYYY-MM-DD). status: confirmed | tentative | unverified.
+
+# ============================================================ Tier S
+- id: icra
+  name: ICRA
+  full_name: IEEE International Conference on Robotics and Automation
+  tier: S
+  field: Robotics (flagship)
+  cadence_years: 1
+  url: https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra
+  notes: RA-L papers with the ICRA option share this deadline. Journal-to-conference presentation transfers accepted.
+  editions:
+    - year: 2026
+      start: 2026-06-01
+      end: 2026-06-05
+      location: Vienna, Austria
+      url: https://2026.ieee-icra.org/
+      deadlines: {paper: 2025-09-15}
+      status: confirmed
+      source: https://github.com/ccfddl/ccf-deadlines/blob/main/conference/AI/icra.yml
+      verified: 2026-09-24
+    - year: 2027
+      start: 2027-05-24
+      end: 2027-05-28
+      location: Seoul, South Korea
+      url: https://2027.ieee-icra.org/
+      deadlines: {paper: 2026-09-16, journal_transfer: 2026-12-31, note: "23:59 PST, extended from 15 Sep"}
+      status: confirmed
+      source: https://2027.ieee-icra.org/contribute/call-for-icra-2027-papers-now-accepting-submissions/
+      verified: 2026-09-24
+
+- id: iros
+  name: IROS
+  full_name: IEEE/RSJ International Conference on Intelligent Robots and Systems
+  tier: S
+  field: Robotics (flagship)
+  cadence_years: 1
+  url: https://www.ieee-ras.org/conferences-workshops/fully-sponsored/iros
+  notes: RA-L papers with the IROS option share this deadline.
+  editions:
+    - year: 2026
+      start: 2026-09-27
+      end: 2026-10-01
+      location: Pittsburgh, PA, USA
+      url: https://2026.ieee-iros.org/
+      deadlines: {paper: 2026-03-02, note: "23:59 PST"}
+      status: confirmed
+      source: https://2026.ieee-iros.org/about/important-dates/
+      verified: 2026-09-24
+    - year: 2027
+      start: 2027-09-26
+      end: 2027-10-01
+      location: Florence, Italy
+      url: https://www.ieee-ras.org/event/2027-ieee-rsj-international-conference-on-intelligent-robots-and-systems-iros-70525/
+      deadlines: {paper: 2027-03-01, note: "23:59 America/Los_Angeles"}
+      status: tentative
+      source: https://www.ieee-ras.org/event/2027-ieee-rsj-international-conference-on-intelligent-robots-and-systems-iros-70525/
+      verified: 2026-09-24
+
+- id: rss
+  name: RSS
+  full_name: "Robotics: Science and Systems"
+  tier: S
+  field: Robotics (flagship)
+  cadence_years: 1
+  url: https://roboticsconference.org/
+  editions:
+    - year: 2026
+      start: 2026-07-13
+      end: 2026-07-17
+      location: Sydney, Australia
+      url: https://roboticsconference.org/2026/
+      deadlines: {abstract: 2026-01-23, paper: 2026-01-30, note: AoE}
+      status: confirmed
+      source: https://github.com/ccfddl/ccf-deadlines/blob/main/conference/AI/rss.yml
+      verified: 2026-09-24
+    - year: 2027
+      start: 2027-07-06
+      end: 2027-07-11
+      location: Athens, Greece
+      url: https://roboticsconference.org/
+      deadlines: {}
+      status: confirmed
+      source: https://roboticsconference.org/
+      verified: 2026-09-24
+
+- id: corl
+  name: CoRL
+  full_name: Conference on Robot Learning
+  tier: S
+  field: Robot learning (flagship)
+  cadence_years: 1
+  url: https://www.corl.org/
+  editions:
+    - year: 2025
+      start: 2025-09-27
+      end: 2025-09-30
+      location: Seoul, South Korea
+      url: https://www.corl.org/
+      deadlines: {paper: 2025-04-30}
+      status: confirmed
+      source: https://github.com/ccfddl/ccf-deadlines/blob/main/conference/AI/corl.yml
+      verified: 2026-09-24
+    - year: 2026
+      start: 2026-11-09
+      end: 2026-11-12
+      location: Austin, TX, USA
+      url: https://www.corl.org/
+      deadlines: {abstract: 2026-05-25, paper: 2026-05-28, note: AoE}
+      status: confirmed
+      source: https://www.corl.org/
+      verified: 2026-09-24
+
+- id: neurips
+  area: ai
+  name: NeurIPS
+  full_name: Conference on Neural Information Processing Systems
+  tier: S
+  field: Machine learning (adjacent)
+  cadence_years: 1
+  url: https://neurips.cc/
+  editions:
+    - year: 2026
+      start: 2026-12-06
+      end: 2026-12-12
+      location: Sydney, Australia
+      url: https://neurips.cc/Conferences/2026
+      deadlines: {abstract: 2026-05-05, paper: 2026-05-07}
+      status: confirmed
+      source: https://github.com/ccfddl/ccf-deadlines/blob/main/conference/AI/nips.yml
+      verified: 2026-09-24
+
+- id: icml
+  area: ai
+  name: ICML
+  full_name: International Conference on Machine Learning
+  tier: S
+  field: Machine learning (adjacent)
+  cadence_years: 1
+  url: https://icml.cc/
+  editions:
+    - year: 2026
+      start: 2026-07-06
+      end: 2026-07-12
+      location: Seoul, South Korea
+      url: https://icml.cc/Conferences/2026
+      deadlines: {abstract: 2026-01-24, paper: 2026-01-29}
+      status: confirmed
+      source: https://github.com/ccfddl/ccf-deadlines/blob/main/conference/AI/icml.yml
+      verified: 2026-09-24
+
+- id: iclr
+  area: ai
+  name: ICLR
+  full_name: International Conference on Learning Representations
+  tier: S
+  field: Machine learning (adjacent)
+  cadence_years: 1
+  url: https://iclr.cc/
+  editions:
+    - year: 2026
+      start: 2026-05-01
+      end: 2026-05-05
+      location: Brazil
+      url: https://iclr.cc/Conferences/2026
+      deadlines: {abstract: 2025-09-19, paper: 2025-09-24}
+      status: confirmed
+      source: https://github.com/ccfddl/ccf-deadlines/blob/main/conference/AI/iclr.yml
+      verified: 2026-09-24
+    - year: 2027
+      start: 2027-04-26
+      end: 2027-04-30
+      location: TBA
+      url: https://iclr.cc/Conferences/2027
+      deadlines: {abstract: 2026-09-18, paper: 2026-09-25, note: AoE}
+      status: confirmed
+      source: https://iclr.cc/Conferences/2027/Dates
+      verified: 2026-09-24
+
+# ============================================================ Tier A
+- id: mrs
+  area: mrs
+  name: MRS
+  full_name: IEEE International Symposium on Multi-Robot and Multi-Agent Systems
+  tier: A
+  field: Multi-robot & multi-agent systems
+  cadence_years: 2
+  url: https://www.ieee-ras.org/multi-robot-systems/activities/
+  notes: Odd years. Organised under the IEEE RAS Technical Committee on Multi-Robot Systems (multirobotsystems.org, which also posts multi-robot CFPs). Late-breaking-results poster track.
+  editions:
+    - year: 2025
+      start: 2025-12-04
+      end: 2025-12-05
+      location: Singapore (SUTD)
+      url: https://www.sutd.edu.sg/mrs2025/
+      deadlines: {paper: 2025-07-09, late_breaking: 2025-10-31, note: "extended from 30 Jun; LBR extended from 25 Oct"}
+      status: confirmed
+      source: https://www.sutd.edu.sg/mrs2025/
+      verified: 2026-10-01
+    - year: 2027
+      location: Granada, Spain
+      deadlines: {}
+      status: tentative
+      source: https://www.ieee-ras.org/multi-robot-systems/activities/
+      verified: 2026-10-01
+
+- id: dars
+  area: mrs
+  name: DARS
+  full_name: International Symposium on Distributed Autonomous Robotic Systems
+  tier: A
+  field: Distributed & swarm robotics
+  cadence_years: 2
+  url: https://link.springer.com/conference/dars
+  notes: Even years. The longest-running dedicated multi-robot symposium (since 1992); single track, Springer Proceedings in Advanced Robotics.
+  editions:
+    - year: 2026
+      start: 2026-10-26
+      end: 2026-10-29
+      location: Tokyo, Japan (Institute of Science Tokyo)
+      url: https://kuralab.github.io/dars2026/
+      deadlines: {paper: 2026-03-20}
+      status: confirmed
+      source: https://kuralab.github.io/dars2026/
+      verified: 2026-09-24
+
+- id: ants
+  area: mrs
+  name: ANTS
+  full_name: International Conference on Swarm Intelligence
+  tier: A
+  field: Swarm intelligence / swarm robotics
+  cadence_years: 2
+  url: https://iridia.ulb.ac.be/ants/
+  notes: Even years; single track, Springer LNCS. Extended versions of selected papers go to an invitation-only Swarm Intelligence special issue. Not to be confused with ICSI, a different "International Conference on Swarm Intelligence". ANTS 2028 was announced at ANTS 2026.
+  editions:
+    - year: 2026
+      start: 2026-06-08
+      end: 2026-06-10
+      location: Darmstadt, Germany
+      url: https://ants2026.org/
+      deadlines: {paper: 2025-11-20, late_breaking: 2026-04-03, note: "AoE; extended from 10 Nov; LBR extended from 30 Mar"}
+      status: confirmed
+      source: https://ants2026.org/
+      verified: 2026-10-01
+
+- id: aamas
+  area: mrs
+  name: AAMAS
+  full_name: International Conference on Autonomous Agents and Multiagent Systems
+  tier: A
+  field: Multi-agent systems
+  cadence_years: 1
+  url: https://www.ifaamas.org/
+  notes: Premier multi-agent venue (IFAAMAS); multi-robot coordination, MARL and MAPF papers are common. Blue Sky Ideas track has a later deadline.
+  editions:
+    - year: 2027
+      start: 2027-05-03
+      end: 2027-05-07
+      location: Hanoi, Vietnam
+      url: https://warwick.ac.uk/fac/sci/dcs/aamas2027/
+      deadlines: {abstract: 2026-10-01, paper: 2026-10-08, workshop_proposal: 2026-10-29, note: "AoE (per ccf-deadlines); Blue Sky Ideas track 12 Nov"}
+      status: confirmed
+      source: https://warwick.ac.uk/fac/sci/dcs/aamas2027/
+      verified: 2026-10-01
+
+- id: isrr
+  name: ISRR
+  full_name: International Symposium of Robotics Research
+  tier: A
+  field: Robotics (IFRR symposium, single track)
+  cadence_years: 2
+  url: http://ifrr.org/isrr
+  editions:
+    - year: 2026
+      start: 2026-11-16
+      end: 2026-11-20
+      location: Malacca, Malaysia
+      url: https://isrr2026.su.domains/
+      deadlines: {paper: 2026-05-15}
+      status: confirmed
+      source: https://isrr2026.su.domains/
+      verified: 2026-09-24
+
+- id: iser
+  name: ISER
+  full_name: International Symposium on Experimental Robotics
+  tier: A
+  field: Experimental robotics (IFRR symposium)
+  cadence_years: 2
+  url: http://ifrr.org/iser
+  notes: Odd years.
+  editions:
+    - year: 2025
+      start: 2025-07-06
+      end: 2025-07-10
+      location: Santa Fe, NM, USA
+      url: https://iser2025.org/
+      deadlines: {}
+      status: confirmed
+      source: https://iser2025.org/
+      verified: 2026-09-24
+
+- id: wafr
+  name: WAFR
+  full_name: World Symposium on the Algorithmic Foundations of Robotics
+  tier: A
+  field: Algorithmic robotics / planning theory
+  cadence_years: 2
+  url: http://ifrr.org/wafr
+  notes: Even years. Formerly "Workshop on ...".
+  editions:
+    - year: 2026
+      start: 2026-06-15
+      end: 2026-06-17
+      location: Oulu, Finland
+      url: https://algorithmic-robotics.org/
+      deadlines: {paper: 2026-02-01, note: "AoE, extended"}
+      status: confirmed
+      source: https://algorithmic-robotics.org/
+      verified: 2026-09-24
+
+- id: case
+  name: CASE
+  full_name: IEEE International Conference on Automation Science and Engineering
+  tier: A
+  field: Automation
+  cadence_years: 1
+  url: https://www.ieee-ras.org/conferences-workshops/fully-sponsored/case
+  notes: T-ASE / RA-L journal options available.
+  editions:
+    - year: 2026
+      start: 2026-08-17
+      end: 2026-08-21
+      location: Shenyang, China
+      url: https://2026.ieeecase.org/
+      deadlines: {paper: 2026-03-15, note: "extended from 1 Mar"}
+      status: confirmed
+      source: https://2026.ieeecase.org/call-for-papers/
+      verified: 2026-09-24
+    - year: 2027
+      start: 2027-08-23
+      end: 2027-08-27
+      location: Linz, Austria
+      url: http://attend.ieee.org/case-2027/
+      deadlines: {}
+      status: tentative
+      source: https://www.ieee-ras.org/event/2027-ieee-23rd-international-conference-on-automation-science-and-engineering-case-71151/
+      verified: 2026-09-24
+
+- id: cdc
+  area: control
+  name: CDC
+  full_name: IEEE Conference on Decision and Control
+  tier: A
+  field: Control (adjacent)
+  cadence_years: 1
+  url: https://ieeecss.org/conferences
+  editions:
+    - year: 2026
+      start: 2026-12-15
+      end: 2026-12-18
+      location: Honolulu, HI, USA
+      url: https://cdc2026.ieeecss.org/
+      deadlines: {paper: 2026-03-31, note: "L-CSS + CDC option: 17 Mar"}
+      status: confirmed
+      source: https://cdc2026.ieeecss.org/about/call-for-papers
+      verified: 2026-09-24
+    - year: 2027
+      location: Lisbon, Portugal
+      deadlines: {}
+      status: unverified
+      source: https://www.conferencelists.org/event/66th-ieee-conference-on-decision-and-control-cdc/
+      verified: 2026-09-24
+
+- id: l4dc
+  area: control
+  name: L4DC
+  full_name: Learning for Dynamics and Control Conference
+  tier: A
+  field: Learning + control (adjacent)
+  cadence_years: 1
+  url: https://l4dc2027.control.ee.ethz.ch/
+  editions:
+    - year: 2027
+      start: 2027-06-16
+      end: 2027-06-18
+      location: Stockholm, Sweden (KTH)
+      url: https://l4dc2027.control.ee.ethz.ch/
+      deadlines: {paper: 2026-11-13, late_breaking: 2027-04-05}
+      status: confirmed
+      source: https://l4dc2027.control.ee.ethz.ch/
+      verified: 2026-09-24
+
+- id: icaps
+  area: ai
+  name: ICAPS
+  full_name: International Conference on Automated Planning and Scheduling
+  tier: A
+  field: Planning & scheduling / MAPF (adjacent)
+  cadence_years: 1
+  url: https://www.icaps-conference.org/
+  notes: With SoCS, AAAI and IJCAI, a main venue for multi-agent path finding and multi-robot task planning / scheduling.
+  editions:
+    - year: 2027
+      start: 2027-06-27
+      end: 2027-07-02
+      location: Columbia, SC, USA
+      url: https://icaps27.icaps-conference.org/
+      deadlines: {abstract: 2026-12-07, paper: 2026-12-14, note: "UTC-12 (per ccf-deadlines)"}
+      status: confirmed
+      source: https://icaps27.icaps-conference.org/
+      verified: 2026-10-01
+
+- id: aaai
+  area: ai
+  name: AAAI
+  full_name: AAAI Conference on Artificial Intelligence
+  tier: A
+  field: AI (adjacent)
+  cadence_years: 1
+  url: https://aaai.org/conference/aaai/
+  editions:
+    - year: 2027
+      start: 2027-02-16
+      end: 2027-02-23
+      location: Montréal, Canada
+      url: https://aaai.org/conference/aaai/aaai-27/
+      deadlines: {abstract: 2026-07-21, paper: 2026-07-28}
+      status: confirmed
+      source: https://github.com/ccfddl/ccf-deadlines/blob/main/conference/AI/aaai.yml
+      verified: 2026-09-24
+
+- id: ijcai
+  area: ai
+  name: IJCAI
+  full_name: International Joint Conference on Artificial Intelligence
+  tier: A
+  field: AI (adjacent)
+  cadence_years: 1
+  url: https://www.ijcai.org/
+  editions:
+    - year: 2026
+      start: 2026-08-15
+      end: 2026-08-21
+      location: Bremen, Germany
+      url: https://2026.ijcai.org/
+      deadlines: {abstract: 2026-01-12, paper: 2026-01-19}
+      status: confirmed
+      source: https://github.com/ccfddl/ccf-deadlines/blob/main/conference/AI/ijcai.yml
+      verified: 2026-09-24
+
+# ============================================================ Tier B
+- id: swarm
+  area: mrs
+  name: SWARM
+  full_name: International Symposium on Swarm Behavior and Bio-Inspired Robotics
+  tier: B
+  field: Swarm behaviour & bio-inspired robotics
+  cadence_years: 1
+  url: https://www.swarm-systems.org/
+  notes: Roughly annual but irregular (2024 Kyoto, 2025 Göttingen, no 2026 edition, 2027 Rayong). Brings biologists and swarm roboticists together.
+  editions:
+    - year: 2027
+      start: 2027-10-08
+      end: 2027-10-10
+      location: Rayong, Thailand (VISTEC)
+      url: https://www27.swarm-systems.org/
+      deadlines: {paper: 2027-03-21, late_breaking: 2027-06-05, note: "site says dates will be updated as they are confirmed"}
+      status: tentative
+      source: https://www27.swarm-systems.org/
+      verified: 2026-10-01
+
+- id: ssrr
+  name: SSRR
+  full_name: IEEE International Symposium on Safety, Security, and Rescue Robotics
+  tier: B
+  field: Field / rescue robotics
+  cadence_years: 1
+  url: https://www.ssrr-ieee.org/
+  editions:
+    - year: 2026
+      start: 2026-11-02
+      end: 2026-11-04
+      location: Incheon, South Korea
+      url: https://www.ssrr-ieee.org/
+      deadlines: {paper: 2026-07-03, note: "extended from 19 Jun"}
+      status: confirmed
+      source: https://www.ssrr-ieee.org/contribute
+      verified: 2026-09-24
+
+- id: icuas
+  name: ICUAS
+  full_name: International Conference on Unmanned Aircraft Systems
+  tier: B
+  field: Aerial robotics / multi-UAV
+  cadence_years: 1
+  url: https://www.uasconferences.com/
+  editions:
+    - year: 2027
+      start: 2027-06-14
+      end: 2027-06-17
+      location: Fortaleza, Brazil
+      url: https://www.uasconferences.com/
+      deadlines: {paper: 2027-02-05}
+      status: tentative
+      source: https://www.uasconferences.com/
+      verified: 2026-09-24
+
+- id: acc
+  area: control
+  name: ACC
+  full_name: American Control Conference
+  tier: B
+  field: Control (adjacent)
+  cadence_years: 1
+  url: https://a2c2.org/events/acc
+  editions:
+    - year: 2027
+      start: 2027-07-07
+      end: 2027-07-09
+      location: Philadelphia, PA, USA
+      url: https://acc2027.a2c2.org/
+      deadlines: {paper: 2026-10-02, note: "firm; extended from 25 Sep"}
+      status: confirmed
+      source: https://acc2027.a2c2.org/
+      verified: 2026-09-24
+
+- id: ecc
+  area: control
+  name: ECC
+  full_name: European Control Conference
+  tier: B
+  field: Control (adjacent)
+  cadence_years: 1
+  url: https://euca-ecc.org/ecc/
+  notes: EUCA's annual conference; Europe's counterpart to ACC.
+  editions:
+    - year: 2027
+      start: 2027-07-13
+      end: 2027-07-16
+      location: Brussels, Belgium (UCLouvain)
+      url: https://ecc27.euca-ecc.org/
+      deadlines: {paper: 2026-10-31, workshop_proposal: 2027-01-31, note: "invited-session proposals also due 31 Oct"}
+      status: confirmed
+      source: https://ecc27.euca-ecc.org/call-for-papers/
+      verified: 2026-10-01
+
+- id: necsys
+  area: control
+  name: NecSys
+  full_name: IFAC Conference on Networked Systems
+  tier: B
+  field: Networked & distributed control (adjacent)
+  cadence_years: 3
+  url: https://tc.ifac-control.org/1/5
+  notes: IFAC TC 1.5 (Networked Systems). Irregular cadence; recent editions 2022 (Zurich) and 2025 (Hong Kong). Formerly the IFAC Workshop on Distributed Estimation and Control in Networked Systems.
+  editions:
+    - year: 2025
+      start: 2025-06-02
+      end: 2025-06-05
+      location: Hong Kong (HKUST)
+      url: https://necsys25.org/
+      deadlines: {paper: 2025-02-14, note: "extended from 31 Jan"}
+      status: confirmed
+      source: https://necsys25.org/
+      verified: 2026-10-01
+
+- id: alife
+  area: ai
+  name: ALIFE
+  full_name: Conference on Artificial Life
+  tier: B
+  field: Artificial life / collective behaviour (adjacent)
+  cadence_years: 1
+  url: https://alife.org/conference/
+  notes: ISAL's annual conference; swarm robotics, collective behaviour, evolutionary robotics. Single-blind.
+  editions:
+    - year: 2026
+      start: 2026-08-17
+      end: 2026-08-21
+      location: Waterloo, Canada (and online)
+      url: https://2026.alife.org/
+      deadlines: {paper: 2026-04-12, workshop_proposal: 2026-02-20, late_breaking: 2026-07-20, note: "AoE; full papers & summaries; extended from 30 Mar"}
+      status: confirmed
+      source: https://2026.alife.org/call-for-papers/
+      verified: 2026-10-01
+    - year: 2027
+      start: 2027-07-19
+      end: 2027-07-23
+      location: Prague, Czech Republic
+      url: https://2027.alife.org/
+      deadlines: {}
+      status: confirmed
+      source: https://alife.org/conference/
+      verified: 2026-10-01
+
+- id: socs
+  area: ai
+  name: SoCS
+  full_name: International Symposium on Combinatorial Search
+  tier: B
+  field: Heuristic search / MAPF (adjacent)
+  cadence_years: 1
+  url: https://search-conference.org/
+  notes: Small, single track; a core venue for multi-agent path finding. The 2026 edition ran just before IJCAI-ECAI.
+  editions:
+    - year: 2026
+      start: 2026-08-14
+      end: 2026-08-16
+      location: Bremerhaven, Germany
+      url: https://socs26.search-conference.org/
+      deadlines: {abstract: 2026-03-16, paper: 2026-03-23, note: "UTC-12; extended from 9 Mar / 16 Mar"}
+      status: confirmed
+      source: https://socs26.search-conference.org/important-dates
+      verified: 2026-10-01

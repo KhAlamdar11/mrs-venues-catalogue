@@ -1,0 +1,226 @@
+# Journals for multi-robot systems research: dedicated multi-robot / swarm / multi-agent journals
+# (area: mrs), general robotics journals (robotics, the default), and the control (control) and
+# AI (ai) journals where multi-robot work routinely appears. Rolling submission; time-bound calls
+# live in special_issues.yaml. Schema: see CLAUDE.md.
+# Deliberately no impact factors here: they change yearly and are easy to get wrong.
+
+# ============================================================ Tier S
+- id: t-ro
+  name: T-RO
+  full_name: IEEE Transactions on Robotics
+  tier: S
+  publisher: IEEE RAS
+  url: https://www.ieee-ras.org/publications/t-ro
+  scope: All of robotics; long-form archival papers
+  conference_option: Accepted papers may be presented at ICRA / IROS / CASE / RoboSoft
+
+- id: ijrr
+  name: IJRR
+  full_name: The International Journal of Robotics Research
+  tier: S
+  publisher: SAGE
+  url: https://journals.sagepub.com/home/ijr
+  scope: All of robotics; long-form archival papers, datasets
+
+- id: scirobotics
+  name: Science Robotics
+  full_name: Science Robotics
+  tier: S
+  publisher: AAAS
+  url: https://www.science.org/journal/scirobotics
+  scope: High-impact, broad-interest robotics
+
+# ============================================================ Tier A
+- id: swarm-intelligence
+  area: mrs
+  name: Swarm Intelligence
+  full_name: Swarm Intelligence
+  tier: A
+  publisher: Springer
+  url: https://link.springer.com/journal/11721
+  scope: The dedicated swarm intelligence / swarm robotics journal; publishes the ANTS special issues
+
+- id: jaamas
+  area: mrs
+  name: JAAMAS
+  full_name: Autonomous Agents and Multi-Agent Systems
+  tier: A
+  publisher: Springer
+  url: https://link.springer.com/journal/10458
+  scope: Multi-agent systems (the IFAAMAS journal); coordination, MARL, MAPF. Invitation-only collection for extended AAMAS papers
+
+- id: ra-l
+  name: RA-L
+  full_name: IEEE Robotics and Automation Letters
+  tier: A
+  publisher: IEEE RAS
+  url: https://www.ieee-ras.org/publications/ra-l
+  scope: Short (6–8 page) papers, fast review (≤ 6 months)
+  conference_option: ICRA / IROS / CASE options at those conferences' deadlines; otherwise present at any RAS conference
+  kind: Letters
+
+- id: t-rl
+  name: T-RL
+  full_name: IEEE Transactions on Robot Learning
+  tier: A
+  publisher: IEEE RAS
+  url: https://www.ieee-ras.org/publications/t-rl/
+  scope: AI / learning methods specific to robots and automation (new journal)
+  conference_option: Journal transfer to ICRA / RoboSoft accepted
+
+- id: auro
+  name: AuRo
+  full_name: Autonomous Robots
+  tier: A
+  publisher: Springer
+  url: https://link.springer.com/journal/10514
+  scope: Autonomy, learning, planning, multi-robot; frequent RSS/CoRL special issues and past multi-robot (MRS) special issues
+
+- id: jfr
+  name: JFR
+  full_name: Journal of Field Robotics
+  tier: A
+  publisher: Wiley
+  url: https://onlinelibrary.wiley.com/journal/15564967
+  scope: Robots in unstructured outdoor / field settings
+
+- id: t-fr
+  name: T-FR
+  full_name: IEEE Transactions on Field Robotics
+  tier: A
+  publisher: IEEE RAS
+  url: https://www.ieee-ras.org/publications/t-fr
+  scope: Field robotics (new journal)
+  conference_option: Journal transfer to ICRA / CASE accepted
+
+- id: t-ase
+  name: T-ASE
+  full_name: IEEE Transactions on Automation Science and Engineering
+  tier: A
+  publisher: IEEE RAS
+  url: https://www.ieee-ras.org/publications/t-ase
+  scope: Automation, manufacturing, logistics
+  conference_option: CASE presentation option
+
+- id: ram
+  name: RAM
+  full_name: IEEE Robotics & Automation Magazine
+  tier: A
+  publisher: IEEE RAS
+  url: https://www.ieee-ras.org/publications/ram
+  scope: Tutorial / survey / applied articles
+  kind: Magazine
+
+- id: arcras
+  name: Annual Review CRAS
+  full_name: Annual Review of Control, Robotics, and Autonomous Systems
+  tier: A
+  publisher: Annual Reviews
+  url: https://www.annualreviews.org/journal/control
+  scope: Invited reviews
+  kind: Review journal
+
+- id: t-cns
+  area: control
+  name: T-CNS
+  full_name: IEEE Transactions on Control of Network Systems
+  tier: A
+  publisher: IEEE CSS
+  url: https://www.ieeecss.org/publication/transactions-control-network-systems
+  scope: Networked, distributed and multi-agent control; consensus, formation, distributed optimisation
+
+- id: tac
+  area: control
+  name: TAC
+  full_name: IEEE Transactions on Automatic Control
+  tier: A
+  publisher: IEEE CSS
+  url: https://ieeecss.org/publication/transactions-automatic-control
+  scope: Control theory; much of the multi-agent consensus / distributed control theory appears here
+
+- id: automatica
+  area: control
+  name: Automatica
+  full_name: Automatica
+  tier: A
+  publisher: Elsevier / IFAC
+  url: https://www.sciencedirect.com/journal/automatica
+  scope: Control theory and applications (IFAC flagship journal); distributed / multi-agent control
+
+- id: natmachintell
+  area: ai
+  name: Nature Machine Intelligence
+  full_name: Nature Machine Intelligence
+  tier: A
+  publisher: Springer Nature
+  url: https://www.nature.com/natmachintell/
+  scope: AI incl. robotics (adjacent)
+
+# ============================================================ Tier B
+- id: npj-robotics
+  name: npj Robotics
+  full_name: npj Robotics
+  tier: B
+  publisher: Springer Nature
+  url: https://www.nature.com/npjrobot/
+  scope: Broad robotics, open access (new journal); themed collections incl. swarm robotics
+
+- id: ras
+  name: RAS
+  full_name: Robotics and Autonomous Systems
+  tier: B
+  publisher: Elsevier
+  url: https://www.sciencedirect.com/journal/robotics-and-autonomous-systems
+  scope: General robotics
+
+- id: ra-p
+  name: RA-P
+  full_name: IEEE Robotics and Automation Practice
+  tier: B
+  publisher: IEEE RAS
+  url: https://www.ieee-ras.org/publications/ra-p
+  scope: Practice-oriented / deployment papers (open access)
+  conference_option: Journal transfer to ICRA / CASE accepted
+
+- id: frontiers-rai
+  name: Frontiers in Robotics and AI
+  full_name: Frontiers in Robotics and AI
+  tier: B
+  publisher: Frontiers
+  url: https://www.frontiersin.org/journals/robotics-and-ai
+  scope: Broad, open access; has a dedicated Multi-Robot Systems section with many rolling "research topics"
+
+- id: jint
+  name: JINT
+  full_name: Journal of Intelligent & Robotic Systems
+  tier: B
+  publisher: Springer
+  url: https://link.springer.com/journal/10846
+  scope: General robotics, UAVs (open access)
+
+- id: advrobotics
+  name: Advanced Robotics
+  full_name: Advanced Robotics
+  tier: B
+  publisher: Taylor & Francis / RSJ
+  url: https://www.tandfonline.com/journals/tadr20
+  scope: General robotics
+
+- id: robotica
+  name: Robotica
+  full_name: Robotica
+  tier: B
+  publisher: Cambridge University Press
+  url: https://www.cambridge.org/core/journals/robotica
+  scope: General robotics, mechanisms
+
+- id: l-css
+  area: control
+  name: L-CSS
+  full_name: IEEE Control Systems Letters
+  tier: B
+  publisher: IEEE CSS
+  url: https://ieeecss.org/publication/ieee-control-systems-letters
+  scope: Short control papers, fast review
+  conference_option: CDC / ACC presentation option (joint submission at those conferences' deadlines)
+  kind: Letters
